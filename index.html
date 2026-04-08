@@ -2,69 +2,167 @@
 <html>
 <head>
   <title>Bindhu Sree Reddy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <style>
     body {
-      font-family: Arial;
-      margin: 40px;
-      max-width: 800px;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      margin: 0;
+      background-color: #f9fafb;
+      color: #1f2937;
     }
-    h1 { color: #333; }
-    a { color: #0073e6; }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      margin-top: 40px;
+      font-size: 22px;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 5px;
+    }
+
+    h3 {
+      margin-bottom: 5px;
+    }
+
+    p {
+      line-height: 1.6;
+      color: #374151;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #e0f2fe;
+      color: #0369a1;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      margin: 5px 5px 0 0;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      margin-top: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .links a {
+      text-decoration: none;
+      color: white;
+      background: #2563eb;
+      padding: 10px 15px;
+      border-radius: 6px;
+      margin-right: 10px;
+      font-size: 14px;
+    }
+
+    .links a:hover {
+      background: #1d4ed8;
+    }
+
+    .header {
+      margin-bottom: 20px;
+    }
+
+    .subtitle {
+      color: #6b7280;
+      margin-bottom: 10px;
+    }
   </style>
 </head>
 
 <body>
 
-<h1>Bindhu Sree Reddy</h1>
-<p>Software Engineering Intern | Backend | Distributed Systems</p>
-<p>Actively seeking Fall 2026 Software Engineering Internship opportunities</p>
+<div class="container">
 
-<h2>About Me</h2>
-<p>
-I’m currently pursuing my Master’s in Computer Science at the University of Florida.
-I previously worked as a Software Engineer at JPMorgan, where I built scalable backend systems used by millions of users.
-</p>
+  <div class="header">
+    <h1>Bindhu Sree Reddy</h1>
+    <p class="subtitle">Software Engineering Intern | Backend | Distributed Systems</p>
+    <p>Actively seeking Fall 2026 Software Engineering Internship opportunities</p>
+  </div>
 
-<p>
-I enjoy building reliable systems and solving real-world engineering problems, especially around backend systems, scalability, and performance.
-</p>
+  <h2>About Me</h2>
+  <div class="card">
+    <p>
+      I’m currently pursuing my Master’s in Computer Science at the University of Florida.
+      I previously worked as a Software Engineer at JPMorgan, where I built scalable backend systems used by millions of users.
+    </p>
+    <p>
+      I enjoy building reliable systems and solving real-world engineering problems, especially around backend systems, scalability, and performance.
+    </p>
+  </div>
 
-<h2>Projects</h2>
+  <h2>Projects</h2>
 
-<h3>InterviewBuddy</h3>
-<p>
-Built a full-stack AI interview platform using React, Node.js, and PostgreSQL with backend APIs and evaluation system.
-</p>
+  <div class="card">
+    <h3>InterviewBuddy</h3>
+    <p>
+      Built a full-stack AI interview platform using React, Node.js, and PostgreSQL.
+      Designed backend APIs and an evaluation system for mock interviews.
+    </p>
+    <div>
+      <span class="tag">React</span>
+      <span class="tag">Node.js</span>
+      <span class="tag">PostgreSQL</span>
+    </div>
+  </div>
 
-<h3>Neighborhood Community Platform</h3>
-<p>
-Developed backend services in Go with REST APIs and designed scalable architecture with PostgreSQL.
-</p>
+  <div class="card">
+    <h3>Neighborhood Community Platform</h3>
+    <p>
+      Developed scalable backend services in Go using REST APIs and PostgreSQL.
+      Focused on performance and clean architecture.
+    </p>
+    <div>
+      <span class="tag">Go</span>
+      <span class="tag">REST APIs</span>
+      <span class="tag">PostgreSQL</span>
+    </div>
+  </div>
 
-<h2>Experience</h2>
+  <h2>Experience</h2>
 
-<h3>Software Engineer – JPMorgan Chase</h3>
-<p>
-Worked on microservices handling 25M+ interactions. Improved system stability by 40% and reduced outages by 50%.
-Built distributed systems using Kafka and optimized APIs used by 66M+ users.
-</p>
+  <div class="card">
+    <h3>Software Engineer – JPMorgan Chase</h3>
+    <p>
+      Worked on microservices handling 25M+ interactions. Improved system stability by 40% and reduced outages by 50%.
+      Built distributed systems using Kafka and optimized APIs used by 66M+ users.
+    </p>
+  </div>
 
-<h2>What I enjoy building</h2>
-<p>
-Scalable backend systems, distributed services, and real-world applications that require reliability and performance at scale.
-</p>
+  <h2>What I Enjoy Building</h2>
+  <div class="card">
+    <p>
+      Scalable backend systems, distributed services, and real-world applications that require reliability and performance at scale.
+    </p>
+  </div>
 
-<h2>Achievements</h2>
-<p>
-AWS DeepRacer Global Top 8 Finalist<br>
-2nd Place AWS GameDay at JPMorgan
-</p>
+  <h2>Achievements</h2>
+  <div class="card">
+    <p>
+      AWS DeepRacer Global Top 8 Finalist<br>
+      2nd Place AWS GameDay at JPMorgan
+    </p>
+  </div>
 
-<h2>Links</h2>
-<ul>
-  <li><a href="https://github.com/bindhusreereddy">GitHub</a></li>
-  <li><a href="mailto:bindhusreer.alla@ufl.edu">Email</a></li>
-</ul>
+  <h2>Links</h2>
+  <div class="links">
+    <a href="https://github.com/bindhusreereddy">GitHub</a>
+    <a href="mailto:bindhusreer.alla@ufl.edu">Email</a>
+  </div>
+
+</div>
 
 </body>
 </html>
