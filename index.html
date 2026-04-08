@@ -18,25 +18,19 @@
       padding: 40px 20px;
     }
 
-    h1 {
-      font-size: 36px;
-      margin-bottom: 5px;
-    }
-
+    h1 { font-size: 36px; }
     h2 {
       margin-top: 40px;
-      font-size: 22px;
       border-bottom: 2px solid #e5e7eb;
       padding-bottom: 5px;
     }
 
-    h3 {
-      margin-bottom: 5px;
-    }
-
-    p {
-      line-height: 1.6;
-      color: #374151;
+    .card {
+      background: white;
+      padding: 20px;
+      margin-top: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
     }
 
     .tag {
@@ -49,14 +43,6 @@
       margin: 5px 5px 0 0;
     }
 
-    .card {
-      background: white;
-      padding: 20px;
-      margin-top: 15px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    }
-
     .links a {
       text-decoration: none;
       color: white;
@@ -64,105 +50,121 @@
       padding: 10px 15px;
       border-radius: 6px;
       margin-right: 10px;
-      font-size: 14px;
-    }
-
-    .links a:hover {
-      background: #1d4ed8;
-    }
-
-    .header {
-      margin-bottom: 20px;
-    }
-
-    .subtitle {
-      color: #6b7280;
-      margin-bottom: 10px;
     }
   </style>
 </head>
 
 <body>
-
 <div class="container">
 
-  <div class="header">
-    <h1>Bindhu Sree Reddy</h1>
-    <p class="subtitle">Software Engineering Intern | Backend | Distributed Systems</p>
-    <p>Actively seeking Fall 2026 Software Engineering Internship opportunities</p>
-  </div>
+<h1>Bindhu Sree Reddy</h1>
+<p>Software Engineering Intern | Backend | Distributed Systems</p>
+<p>Actively seeking Fall 2026 opportunities</p>
 
-  <h2>About Me</h2>
-  <div class="card">
-    <p>
-      I’m currently pursuing my Master’s in Computer Science at the University of Florida.
-      I previously worked as a Software Engineer at JPMorgan, where I built scalable backend systems used by millions of users.
-    </p>
-    <p>
-      I enjoy building reliable systems and solving real-world engineering problems, especially around backend systems, scalability, and performance.
-    </p>
-  </div>
-
-  <h2>Projects</h2>
-
-  <div class="card">
-    <h3>InterviewBuddy</h3>
-    <p>
-      Built a full-stack AI interview platform using React, Node.js, and PostgreSQL.
-      Designed backend APIs and an evaluation system for mock interviews.
-    </p>
-    <div>
-      <span class="tag">React</span>
-      <span class="tag">Node.js</span>
-      <span class="tag">PostgreSQL</span>
-    </div>
-  </div>
-
-  <div class="card">
-    <h3>Neighborhood Community Platform</h3>
-    <p>
-      Developed scalable backend services in Go using REST APIs and PostgreSQL.
-      Focused on performance and clean architecture.
-    </p>
-    <div>
-      <span class="tag">Go</span>
-      <span class="tag">REST APIs</span>
-      <span class="tag">PostgreSQL</span>
-    </div>
-  </div>
-
-  <h2>Experience</h2>
-
-  <div class="card">
-    <h3>Software Engineer – JPMorgan Chase</h3>
-    <p>
-      Worked on microservices handling 25M+ interactions. Improved system stability by 40% and reduced outages by 50%.
-      Built distributed systems using Kafka and optimized APIs used by 66M+ users.
-    </p>
-  </div>
-
-  <h2>What I Enjoy Building</h2>
-  <div class="card">
-    <p>
-      Scalable backend systems, distributed services, and real-world applications that require reliability and performance at scale.
-    </p>
-  </div>
-
-  <h2>Achievements</h2>
-  <div class="card">
-    <p>
-      AWS DeepRacer Global Top 8 Finalist<br>
-      2nd Place AWS GameDay at JPMorgan
-    </p>
-  </div>
-
-  <h2>Links</h2>
-  <div class="links">
-    <a href="https://github.com/bindhusreereddy">GitHub</a>
-    <a href="mailto:bindhusreer.alla@ufl.edu">Email</a>
-  </div>
-
+<!-- ABOUT -->
+<h2>About Me</h2>
+<div class="card">
+<p>
+I’m a Master’s student in Computer Science at the University of Florida with professional experience as a Software Engineer at JPMorgan.
+</p>
+<p>
+I enjoy building scalable backend systems and solving real-world engineering problems around performance, reliability, and distributed systems.
+</p>
 </div>
 
+<!-- EXPERIENCE -->
+<h2>Experience</h2>
+
+<div class="card">
+<h3>Software Engineer — JPMorgan Chase</h3>
+<ul>
+<li>Designed and deployed microservices using Java and Spring Boot for a platform handling 25M+ monthly interactions</li>
+<li>Resolved critical memory issues by upgrading system dependencies, improving stability by 40% and reducing outages by 50%</li>
+<li>Built and optimized REST APIs used by 66M+ users, improving response time by 40%</li>
+<li>Implemented backend validation logic reducing fraud risk by 60%</li>
+<li>Worked on distributed systems using Kafka for asynchronous event-driven processing</li>
+<li>Improved developer productivity using automation tools, reducing code review time by 30%</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Software Engineer Intern — JPMorgan Chase</h3>
+<ul>
+<li>Built a full-stack data upload feature using React and Spring Boot APIs</li>
+<li>Designed asynchronous pipelines using Kafka for reliable data processing</li>
+<li>Implemented unit and integration testing for production reliability</li>
+</ul>
+</div>
+
+<!-- PROJECTS -->
+<h2>Projects</h2>
+
+<div class="card">
+<h3>InterviewBuddy</h3>
+<ul>
+<li>Built a full-stack interview preparation platform using React, Node.js, and PostgreSQL</li>
+<li>Integrated LLaMA 3 via API for dynamic interview simulation and feedback</li>
+<li>Designed evaluation system for scoring responses and tracking performance</li>
+<li>Implemented personalized interview flows based on resume inputs</li>
+</ul>
+<div>
+<span class="tag">React</span>
+<span class="tag">Node.js</span>
+<span class="tag">PostgreSQL</span>
+<span class="tag">LLM</span>
+</div>
+</div>
+
+<div class="card">
+<h3>Neighborhood Community Platform</h3>
+<ul>
+<li>Built scalable backend services in Go using REST APIs</li>
+<li>Designed layered architecture for clean service design</li>
+<li>Integrated PostgreSQL with optimized relational schema</li>
+</ul>
+<div>
+<span class="tag">Go</span>
+<span class="tag">REST APIs</span>
+<span class="tag">PostgreSQL</span>
+</div>
+</div>
+
+<div class="card">
+<h3>Agro-Zone</h3>
+<ul>
+<li>Developed a full-stack e-commerce platform using PHP, JavaScript, and MySQL</li>
+<li>Implemented authentication, ordering, and payment workflows</li>
+<li>Enabled direct farmer-to-buyer transactions</li>
+</ul>
+</div>
+
+<!-- SKILLS -->
+<h2>Skills</h2>
+<div class="card">
+<p><b>Languages:</b> Java, Python, Go, JavaScript, SQL</p>
+<p><b>Backend:</b> Spring Boot, Node.js, REST APIs, Microservices</p>
+<p><b>Systems:</b> Kafka, Distributed Systems</p>
+<p><b>Cloud:</b> AWS</p>
+<p><b>Databases:</b> PostgreSQL, MySQL</p>
+</div>
+
+<!-- ACHIEVEMENTS -->
+<h2>Achievements</h2>
+<div class="card">
+<p>
+AWS DeepRacer Global Top 8 Finalist<br>
+2nd Place AWS GameDay at JPMorgan<br>
+AWS Certified Developer Associate
+</p>
+</div>
+
+<!-- LINKS -->
+<h2>Links</h2>
+<div class="links">
+<a href="https://github.com/bindhusreereddy">GitHub</a>
+<a href="mailto:bindhusreer.alla@ufl.edu">Email</a>
+</div>
+
+</div>
 </body>
 </html>
